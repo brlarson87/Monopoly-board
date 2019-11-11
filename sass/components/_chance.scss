@@ -1,0 +1,38 @@
+.chance-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.question-mark {
+  text-align: center;
+  font-size: 9rem;
+  font-family: "Cinzel", serif;
+  margin-top: -1.5rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.85), 2px 2px 0 rgb(0, 0, 0);
+
+  &--1 {
+    color: darken(pink, 25%);
+  }
+
+  &--2 {
+    color: lighten(blue, 15%);
+  }
+  &--3 {
+    color: darken(orange, 8%);
+  }
+}
+
+.chance-container-top {
+  height: 100%;
+  width: 100%;
+  margin-top: -1.5rem;
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+}
+
+.chance-container-right {
+  transform: rotate(-90deg) translate(3.2rem, 1.1rem);
+}

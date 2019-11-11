@@ -1,0 +1,88 @@
+.railroad-row {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 0.6rem 2px 2px 2px;
+
+  &-top {
+    transform: rotate(180deg);
+  }
+
+  &__name {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+  &__svg {
+    margin-top: 1rem;
+    width: 80%;
+  }
+
+  &__price {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+  }
+}
+
+.railroad-left {
+  position: absolute;
+  text-align: center;
+  right: 7%;
+  height: 100%;
+  width: 55%;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+
+  &__title {
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 0.5rem;
+  }
+
+  &__train-svg {
+    height: 64%;
+    margin-top: 0.9rem;
+  }
+}
+
+.railroad-right {
+  transform: rotate(-90deg);
+  text-align: center;
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: translate(0.5rem, -0.8rem);
+    line-height: 1rem;
+  }
+
+  &__train-svg {
+    width: 49%;
+    transform: translate(0.6rem, 0.3rem);
+  }
+
+  .right-col-price {
+    text-align: center;
+    transform: translate(0.4rem, 0.7rem);
+
+    h5 {
+      font-size: 1rem;
+    }
+  }
+}
+
+.left-col-price {
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg) translateY(-0.1rem) translateX(3.1rem);
+
+  h5 {
+    font-size: 0.9rem;
+  }
+}

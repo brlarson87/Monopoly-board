@@ -1,0 +1,10 @@
+.col {
+  position: absolute;
+  height: 75%;
+  width: 12.5%;
+  top: 12.5%;
+
+  &-right {
+    right: 0;
+  }
+}

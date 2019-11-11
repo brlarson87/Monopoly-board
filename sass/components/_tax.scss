@@ -1,0 +1,49 @@
+.income-tax {
+  padding: 0.7rem 2px 2px 2px;
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+
+  &__heading {
+    font-weight: 300;
+  }
+
+  &__diamond {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 3px;
+    width: 3px;
+    background-color: black;
+    transform: rotate(45deg) translateX(-90%);
+    outline: solid 1px black;
+    outline-offset: 1px;
+    margin-top: 0.5rem;
+  }
+}
+
+.luxury-tax {
+  transform: rotate(-90deg) translateX(2px);
+  text-align: center;
+
+  &__title {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.2rem;
+    text-align: center;
+    transform: translate(0.3rem, -0.7rem);
+  }
+
+  &__svg {
+    width: 40%;
+    transform: translate(0.2rem, 0.2rem);
+  }
+
+  &__price {
+    text-transform: uppercase;
+    font-size: 1rem;
+    transform: translate(1px, 0.6rem);
+  }
+}

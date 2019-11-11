@@ -1,0 +1,70 @@
+.main-title {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-43deg);
+  //font-family: "Sigmar One", cursive;
+  font-family: "Atma", cursive;
+  font-size: 7.5rem;
+  //text-shadow: 5px 1px 0 black, -4px -1px 0 black;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border: solid 0.4rem black;
+  color: rgba(5, 5, 5, 0.9);
+  background-image: linear-gradient(to top, red 0%, transparent 97%, red 98%),
+    linear-gradient(
+      to bottom,
+      lighten(red, 25%) 0%,
+      lighten(red, 25%) 5%,
+      lighten(red, 20%) 8%,
+      transparent 9%
+    ),
+    radial-gradient(red 0%, lighten(red, 5%) 87%, lighten(red, 20%) 89%),
+    linear-gradient(to top, red, red 88%, transparent 89%);
+
+  box-shadow: inset 2px 2px 0 red, inset -2px -2px 0 red;
+
+  &:after,
+  &:before {
+    position: absolute;
+    content: attr(title);
+    color: #fff;
+    z-index: 2;
+  }
+
+  &:before {
+    top: 1px;
+    left: 3.6rem;
+  }
+  &:after {
+    top: 2px;
+    left: 3.8rem;
+  }
+}
+
+.property-header {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0 0.4rem;
+  font-weight: 300;
+
+  &--row {
+    margin-top: 0.5rem;
+  }
+
+  &--column {
+    margin-top: 0.2rem;
+  }
+}
+
+.property-price {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: none;
+}

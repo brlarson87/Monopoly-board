@@ -1,0 +1,59 @@
+.community-chest {
+  position: absolute;
+  top: 19.5%;
+  left: 19%;
+  transform: translate(-50%, -50%) rotate(138deg);
+  height: 16%;
+  width: 26%;
+  border: solid 1px red;
+  background-image: linear-gradient(
+    to bottom,
+    darken(lightblue, 20%),
+    darken(lightblue, 15%),
+    darken(lightblue, 8%)
+  );
+  border-top: solid 3px darken(lightblue, 8%);
+  border-bottom: solid 3px darken(lightblue, 24%);
+  border-right: solid 4px darken(lightblue, 8%);
+  border-left: solid 4px darken(lightblue, 22%);
+  outline: 2px dotted black;
+  outline-offset: 0.5rem;
+  outline-width: 3px;
+
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+
+  img {
+    width: 60%;
+    color: white;
+  }
+}
+
+.chance {
+  position: absolute;
+  bottom: 19.5%;
+  right: 20%;
+  transform: translate(50%, 50%) rotate(-44deg);
+  height: 16%;
+  width: 26%;
+  background-image: linear-gradient(
+    to bottom,
+    darken(orange, 20%),
+    darken(orange, 15%),
+    darken(orange, 8%)
+  );
+  border-top: solid 3px darken(orange, 8%);
+  border-bottom: solid 3px darken(orange, 24%);
+  border-right: solid 4px darken(orange, 8%);
+  border-left: solid 4px darken(orange, 22%);
+  outline: 2px dotted black;
+  outline-offset: 0.5rem;
+  outline-width: 3px;
+  font-size: 10rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 12.5rem;
+  font-family: "Cinzel", serif;
+  text-shadow: 3px 3px 0 black, -1px -1px 0 black;
+}

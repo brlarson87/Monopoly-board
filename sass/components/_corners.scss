@@ -1,0 +1,141 @@
+.corner {
+  position: absolute;
+  height: 12.5%;
+  width: 12.5%;
+  border: solid 1px black;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.corner-container-top-left {
+  text-align: center;
+  padding: 0.3rem;
+  transform: rotate(135deg) translateY(-0.3rem);
+  .corner-title {
+    text-align: center;
+    font-size: 1.5rem;
+    transform: translateY(0.9rem);
+
+    &--2 {
+      transform: translateY(-0.9rem);
+    }
+  }
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+
+  .corner-container-top-right {
+    text-align: center;
+    margin-left: -0.5rem;
+    margin-top: 0.6rem;
+    transform: rotate(-135deg);
+    padding: 0.3rem;
+    .corner-title {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-right: 0.5rem;
+
+      &--2 {
+        margin-right: 1.1rem;
+      }
+    }
+
+    .police-svg {
+      width: 55%;
+    }
+  }
+}
+
+.bottom-right {
+  top: 100%;
+  right: 0;
+  transform: translateY(-100%);
+}
+.bottom-left {
+  top: 100%;
+  left: 0;
+  transform: translateY(-100%);
+}
+
+.go-container {
+  text-align: center;
+  padding: 0.3rem;
+  height: 100%;
+
+  &__sub {
+    font-size: 1rem;
+    width: 60%;
+
+    line-height: 1rem;
+    transform: rotate(-45deg) translate(-18%, 20%);
+  }
+
+  &__main-go {
+    font-family: "Quantico", sans-serif;
+    font-size: 5rem;
+    transform: rotate(-45deg) translate(9%, -11%);
+  }
+
+  &__go-arrow {
+    width: 62%;
+    transform: rotate(-45deg) translate(45%, -38%);
+  }
+}
+
+.jail-container {
+  background-color: darken(orange, 6%);
+  height: 75%;
+  width: 75%;
+  margin-left: 25%;
+  text-align: center;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: 300;
+
+    &--top {
+      transform: rotate(45deg) translate(2rem, -1.2rem);
+    }
+
+    &--bottom {
+      transform: rotate(45deg) translate(-2.8rem, 0.7rem);
+    }
+  }
+
+  &__svg {
+    margin-left: 0.3rem;
+    width: 75%;
+    transform: rotate(45deg);
+  }
+}
+
+.left-down {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+
+  &__heading {
+    font-size: 1.2rem;
+    font-weight: 400;
+    transform: rotate(90deg) translateX(3.2rem);
+  }
+}
+
+.bot {
+  font-size: 1.3rem;
+  height: 25%;
+  text-align: center;
+  padding-top: 0.7rem;
+
+  &__heading {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 2.5rem;
+  }
+}

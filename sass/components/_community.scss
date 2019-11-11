@@ -1,0 +1,69 @@
+.comm-chest {
+  text-align: center;
+  padding: 0.7rem 2px 2px 2px;
+  text-transform: uppercase;
+  line-height: 1.1rem;
+
+  &__heading {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  &__property {
+    width: 44%;
+    &--bottom {
+      margin-top: 2rem;
+      width: 68%;
+    }
+  }
+}
+
+.community-chest-container {
+  position: relative;
+  text-align: center;
+
+  &__title {
+    margin-left: 7.3rem;
+    margin-top: 2.2rem;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    line-height: 1rem;
+    text-align: center;
+
+    .sub {
+      font-size: 1rem;
+      font-weight: 300;
+
+      &--2 {
+        margin-left: 1rem;
+      }
+    }
+  }
+  img {
+    transform: rotate(90deg) translate(-2.7rem, 1.6rem);
+  }
+}
+
+.community-chest-container-right {
+  text-align: center;
+
+  &__title {
+    transform: rotate(-90deg) translate(-2.5rem, -3.7rem);
+    text-transform: uppercase;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+    .sub {
+      font-size: 1rem;
+      font-weight: 300;
+
+      &--2 {
+        margin-left: 0.2rem;
+      }
+    }
+  }
+  img {
+    transform: rotate(-90deg) translate(0.4rem, 1.7rem);
+  }
+}

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quantico:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Atma:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel:700|Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Monopoly</title>
+  </head>
+  <body>
+    <div class="board">
+      <div class="center-container">
+        <div class="community-chest">
+          <img
+            src="/img/treasurechest.svg"
+            alt="treasure"
+            class="treasure-svg"
+          />
+        </div>
+        <h1 class="main-title" title="monopoly">Monopoly</h1>
+        <div class="chance">?</div>
+      </div>
+
+      <div class="corner top-left">
+        <div class="corner-container-top-left">
+          <div class="corner-title">Free</div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/38/Red_Car_Closed_Window_Cartoon_Vector.svg"
+            alt="car"
+            class="car-svg"
+          />
+          <div class="corner-title corner-title--2">Parking</div>
+        </div>
+      </div>
+      <div class="corner top-right">
+        <div class="corner-container-top-right">
+          <div class="corner-title">Go To</div>
+          <img src="/img/policeman.svg" alt="policeman" class="police-svg" />
+          <div class="corner-title corner-title--2">Jail</div>
+        </div>
+      </div>
+      <div class="corner bottom-left">
+        <div class="jail-container">
+          <h6 class="jail-container__title jail-container__title--top">In</h6>
+          <img
+            src="img/jailcell.svg"
+            alt="Jail cell"
+            class="jail-container__svg"
+          />
+          <h6 class="jail-container__title jail-container__title--bottom">
+            Jail
+          </h6>
+        </div>
+        <div class="left-down">
+          <h6 class="left-down__heading">Just</h6>
+        </div>
+        <div class="bot">
+          <h6 class="bot__heading">Visiting</h6>
+        </div>
+      </div>
+      <div class="corner bottom-right">
+        <div class="go-container">
+          <h6 class="go-container__sub">Collect $200 salary as you pass</h6>
+          <h2 class="go-container__main-go">GO</h2>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/dd/WikiProject_Scouting_BSA_Order_of_the_Arrow.svg"
+            alt="arrow"
+            class="go-container__go-arrow"
+          />
+        </div>
+      </div>
+
+      <!--COL LEFT-->
+      <div class="col col-left">
+        <div class="column-card column-card--left">
+          <div class="column-card__color-orange column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              New York Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="column-card__color-orange column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              Tennessee Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="community-chest-container">
+            <div class="community-chest-container__title">
+              <h5 class="sub">Community</h5>
+              <h5 class="sub sub--2">Chest</h5>
+            </div>
+            <img
+              src="/img/treasurechest.svg"
+              alt="treasure chest"
+              class="comm-chest__property"
+            />
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="column-card__color-orange column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              St. James Place
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="railroad-left">
+            <h5 class="railroad-left__title">Pennslyvania RailRoad</h5>
+            <img
+              src="/img/train.svg"
+              alt="train svg"
+              class="railroad-left__train-svg"
+            />
+          </div>
+          <div class="left-col-price"><h5>&#36;200</h5></div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="column-card__color-pink column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              Virginia Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="column-card__color-pink column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              States<br />Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="electric-container">
+            <div class="electric-container__title">
+              <h5 class="sub">Electric</h5>
+              <h5 class="sub sub--2">Company</h5>
+            </div>
+            <img src="/img/lightbulb.svg" alt="light-bulb" class="light-bulb" />
+            <h5 class="left-price">&#36;150</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--left">
+          <div class="column-card__color-pink column-card__left-side"></div>
+          <div class="card-content-box card-content-box--left-property">
+            <h5 class="property-header property-header--column">
+              St.Charles Place
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+      </div>
+
+      <!--COL RIGHT-->
+      <div class="col col-right">
+        <div class="column-card column-card--right">
+          <div class="column-card__color-green column-card__right-side"></div>
+          <div class="card-content-box card-content-box--right-property">
+            <h5 class="property-header property-header--column">
+              Pacific <br />
+              Avenue
+            </h5>
+            <h5 class="property-price">&#36;300</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="column-card__color-green column-card__right-side"></div>
+          <div class="card-content-box card-content-box--right-property">
+            <h5 class="property-header property-header--column">
+              North<br />
+              Carolina Avenue
+            </h5>
+            <h5 class="property-price">&#36;300</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="community-chest-container-right">
+            <div class="community-chest-container-right__title">
+              <h5 class="sub">Community</h5>
+              <h5 class="sub sub--2">Chest</h5>
+            </div>
+            <img
+              src="/img/treasurechest.svg"
+              alt="treasure chest"
+              class="comm-chest__property"
+            />
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="column-card__color-green column-card__right-side"></div>
+          <div class="card-content-box card-content-box--right-property">
+            <h5 class="property-header property-header--column">
+              Pennslyvania Avenue
+            </h5>
+            <h5 class="property-price">&#36;320</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="railroad-right">
+            <h5 class="railroad-right__title">
+              Short<br />
+              Line
+            </h5>
+            <img
+              src="/img/train.svg"
+              alt="train svg"
+              class="railroad-right__train-svg"
+            />
+            <div class="right-col-price"><h5>&#36;200</h5></div>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="chance-container-right">
+            <div class="chance-title">Chance</div>
+            <div class="question-mark question-mark--3">?</div>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="column-card__color-blue column-card__right-side"></div>
+          <div class="card-content-box card-content-box--right-property">
+            <h5 class="property-header property-header--column">
+              Park<br />
+              Place
+            </h5>
+            <h5 class="property-price">&#36;350</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="luxury-tax">
+            <h5 class="luxury-tax__title">Luxury <br />Tax</h5>
+            <img src="/img/diamond.svg" alt="Diamond" class="luxury-tax__svg" />
+            <h5 class="luxury-tax__price">pay <br />&#36;100</h5>
+          </div>
+        </div>
+
+        <div class="column-card column-card--right">
+          <div class="column-card__color-blue column-card__right-side"></div>
+          <div class="card-content-box card-content-box--right-property">
+            <h5 class="property-header property-header--column">
+              Boardwalk
+            </h5>
+            <h5 class="property-price">&#36;400</h5>
+          </div>
+        </div>
+      </div>
+
+      <!--TOP ROW-->
+      <div class="row row-top">
+        <div class="row-card row-card--top">
+          <div class="row-card__color-red row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Kentucky Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="chance-container-top">
+            <div class="chance-title">Chance</div>
+            <div class="question-mark question-mark--2">?</div>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="row-card__color-red row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Indiana Avenue
+            </h5>
+            <h5 class="property-price">&#36;220</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="row-card__color-red row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Illinois Avenue
+            </h5>
+            <h5 class="property-price">&#36;240</h5>
+          </div>
+        </div>
+
+        <div class="row-card row-card--top">
+          <div class="railroad-row railroad-row-top">
+            <h5 class="railroad-row__name">B. & O. Railroad</h5>
+            <img
+              src="img/train.svg"
+              alt="railroad svg"
+              class="railroad-row__svg"
+            />
+            <h5 class="railroad-row__price">&#36;200</h5>
+          </div>
+        </div>
+
+        <div class="row-card row-card--top">
+          <div class="row-card__color-yellow row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Atlantic Avenue
+            </h5>
+            <h5 class="property-price">&#36;260</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="water-works-container">
+            <h5 class="title">
+              Water<br />
+              Works
+            </h5>
+            <img src="img/faucet.svg" alt="faucet" class="faucet" />
+            <h5 class="price">$150</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="row-card__color-yellow row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Ventnor Avenue
+            </h5>
+            <h5 class="property-price">&#36;260</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--top">
+          <div class="row-card__color-yellow row-card__top-side"></div>
+          <div class="card-content-box card-content-box--top-property">
+            <h5 class="property-header property-header--row">
+              Marvin Gardens
+            </h5>
+            <h5 class="property-price">&#36;280</h5>
+          </div>
+        </div>
+      </div>
+
+      <!--BOTTOM ROW-->
+      <div class="row row-bottom">
+        <div class="row-card row-card--bottom">
+          <div class="row-card__color-lightblue row-card__bottom-side"></div>
+          <div class="card-content-box card-content-box--bottom-property">
+            <h5 class="property-header property-header--row">
+              Connecticut Avenue
+            </h5>
+            <h5 class="property-price">&#36;120</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="row-card__color-lightblue row-card__bottom-side"></div>
+          <div class="card-content-box card-content-box--bottom-property">
+            <h5 class="property-header property-header--row">
+              Vermont Avenue
+            </h5>
+            <h5 class="property-price">&#36;100</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="chance-title">Chance</div>
+          <div class="question-mark question-mark--1">?</div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="row-card__color-lightblue row-card__bottom-side"></div>
+          <div class="card-content-box card-content-box--bottom-property">
+            <h5 class="property-header property-header--row">
+              Oriental Avenue
+            </h5>
+            <h5 class="property-price">&#36;100</h5>
+          </div>
+        </div>
+
+        <div class="row-card row-card--bottom">
+          <div class="railroad-row">
+            <h5 class="railroad-row__name">Reading Railroad</h5>
+            <img
+              src="img/train.svg"
+              alt="railroad svg"
+              class="railroad-row__svg"
+            />
+            <h5 class="railroad-row__price">&#36;200</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="income-tax">
+            <h5 class="income-tax__heading">Income Tax</h5>
+            <div class="income-tax__diamond"></div>
+            <h5 class="property-price">pay &#36;200</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="row-card__color-brown row-card__bottom-side"></div>
+          <div class="card-content-box card-content-box--bottom-property">
+            <h5 class="property-header property-header--row">
+              Baltic Avenue
+            </h5>
+            <h5 class="property-price">&#36;60</h5>
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="comm-chest">
+            <h5 class="comm-chest__heading">community chest</h5>
+            <img
+              src="/img/treasurechest.svg"
+              alt="community-chest"
+              class="comm-chest__property comm-chest__property--bottom"
+            />
+          </div>
+        </div>
+        <div class="row-card row-card--bottom">
+          <div class="row-card__color-brown row-card__bottom-side"></div>
+          <div class="card-content-box card-content-box--bottom-property">
+            <h5 class="property-header property-header--row">
+              Mediterranean Avenue
+            </h5>
+            <h5 class="property-price">&#36;60</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  overflow: hidden;
+  background-image: url("./img/bg-table.jpg");
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 48%;
+  }
+
+  body {
+    padding-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 30%;
+  }
+
+  body {
+    padding-top: 20rem;
+  }
+}

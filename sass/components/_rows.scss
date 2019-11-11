@@ -1,0 +1,11 @@
+.row {
+  position: absolute;
+  width: 75%;
+  height: 12.5%;
+  left: 12.5%;
+
+  &-bottom {
+    top: 100%;
+    transform: translateY(-100%);
+  }
+}
