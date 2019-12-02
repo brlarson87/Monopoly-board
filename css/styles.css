@@ -16,13 +16,13 @@ body {
   html {
     font-size: 48%; }
   body {
-    padding-top: 10rem; } }
+    padding-top: 20rem; } }
 
 @media screen and (max-width: 750px) {
   html {
-    font-size: 30%; }
+    font-size: 40%; }
   body {
-    padding-top: 20rem; } }
+    padding-top: 30rem; } }
 
 .main-title {
   display: inline-block;
