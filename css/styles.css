@@ -9,8 +9,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
-  overflow: hidden;
-  background-image: url("./img/bg-table.jpg"); }
+  overflow: hidden; }
 
 @media screen and (max-width: 950px) {
   html {
